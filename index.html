@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts end -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome end -->
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- css end -->
+  </head>
+  <body>
+
+    <!-- Main -->
+     <main>
+        <!-- search -->
+        <form action="">
+            <input type="text" name="search" id="search" autocomplete="off">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <!-- search end -->
+
+        <!-- result section -->
+         <section class="result" id="city">
+            <figure class="name">
+                <figcaption>Karachi</figcaption>
+                <img src="https://flagsapi.com/PK/shiny/64.png">
+            </figure>
+            <div class="temperature" id="temperature">
+                <img src="https://openweathermap.org/img/wn/10d@4x.png">
+                <div>
+                    <span>31</span>
+                    <sup>o</sup>
+                </div>
+            </div>
+            <p class="desceription" id="desceription">
+                overcast clouds
+            </p>
+            <ul>
+                <li>
+                    <span>Clouds</span>
+                    <i class="fa-solid fa-cloud"></i>
+                    <span id="clouds">98</span>%
+                </li>
+
+                <li>
+                    <span>Humidity</span>
+                    <i class="fa-solid fa-droplet"></i>
+                    <span id="humidity">55</span>%
+                </li>
+
+                <li>
+                    <span>Pressure</span>
+                    <i class="fa-solid fa-gauge"></i>
+                    <span id="pressure">1001</span>hPa
+                </li>
+            </ul>
+         </section>
+        <!-- result section end -->
+     </main>
+    <!-- Main end -->
+
+     <!-- Footer -->
+     <footer>
+        Created by Fahad Qureshi
+    </footer>
+
+    <!-- Java Script -->
+    <script src="app.js"></script>
+    <!-- Java Script end -->
+  </body>
+</html>
