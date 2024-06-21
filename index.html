@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="weather-app.png" type="image/x-icon">
     <title>Document</title>
 
     <!-- google fonts -->
@@ -15,7 +16,13 @@
     <!-- google fonts end -->
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Font Awesome end -->
 
     <!-- css -->
@@ -23,60 +30,55 @@
     <!-- css end -->
   </head>
   <body>
-
     <!-- Main -->
-     <main>
-        <!-- search -->
-        <form action="">
-            <input type="text" name="search" id="search" autocomplete="off">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-        </form>
-        <!-- search end -->
+    <main>
+      <!-- search -->
+      <form action="">
+        <input type="text" name="search" id="search" autocomplete="off" />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
+      <!-- search end -->
 
-        <!-- result section -->
-         <section class="result" id="city">
-            <figure class="name">
-                <figcaption>Karachi</figcaption>
-                <img src="https://flagsapi.com/PK/shiny/64.png">
-            </figure>
-            <div class="temperature" id="temperature">
-                <img src="https://openweathermap.org/img/wn/10d@4x.png">
-                <div>
-                    <span>31</span>
-                    <sup>o</sup>
-                </div>
-            </div>
-            <p class="desceription" id="desceription">
-                overcast clouds
-            </p>
-            <ul>
-                <li>
-                    <span>Clouds</span>
-                    <i class="fa-solid fa-cloud"></i>
-                    <span id="clouds">98</span>%
-                </li>
+      <!-- result section -->
+      <section class="result" id="city">
+        <figure class="name">
+          <figcaption>Karachi</figcaption>
+          <img src="https://flagsapi.com/PK/shiny/64.png" />
+        </figure>
+        <div class="temperature" id="temperature">
+          <img src="https://openweathermap.org/img/wn/10d@4x.png" />
+          <div>
+            <span>31</span>
+            <sup>o</sup>
+          </div>
+        </div>
+        <p class="desceription" id="desceription">overcast clouds</p>
+        <ul>
+          <li>
+            <span>Clouds</span>
+            <i class="fa-solid fa-cloud"></i>
+            <span id="clouds">98</span>%
+          </li>
 
-                <li>
-                    <span>Humidity</span>
-                    <i class="fa-solid fa-droplet"></i>
-                    <span id="humidity">55</span>%
-                </li>
+          <li>
+            <span>Humidity</span>
+            <i class="fa-solid fa-droplet"></i>
+            <span id="humidity">55</span>%
+          </li>
 
-                <li>
-                    <span>Pressure</span>
-                    <i class="fa-solid fa-gauge"></i>
-                    <span id="pressure">1001</span>hPa
-                </li>
-            </ul>
-         </section>
-        <!-- result section end -->
-     </main>
+          <li>
+            <span>Pressure</span>
+            <i class="fa-solid fa-gauge"></i>
+            <span id="pressure">1001</span>hPa
+          </li>
+        </ul>
+      </section>
+      <!-- result section end -->
+    </main>
     <!-- Main end -->
 
-     <!-- Footer -->
-     <footer>
-        Created by Fahad Qureshi
-    </footer>
+    <!-- Footer -->
+    <footer>Created by Fahad Qureshi</footer>
 
     <!-- Java Script -->
     <script src="app.js"></script>
